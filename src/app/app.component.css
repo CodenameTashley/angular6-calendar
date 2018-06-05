@@ -1,0 +1,22 @@
+.grid {
+  padding: 15px;
+  margin: auto;
+  width: 60vw;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
+
+.grid div {
+  color: #000000;
+  background-color: #efefef;
+  border: 2px solid darkblue;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
